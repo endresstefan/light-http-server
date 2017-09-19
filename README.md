@@ -1,7 +1,7 @@
  ##**Light http server**
   Lightweight express like web framework for [node](http://nodejs.org).
 
-  [![npm](https://img.shields.io/npm/v/light-http-server.svg)]()
+  [![npm](https://img.shields.io/npm/v/light-http-server.svg)](https://github.com/endresstefan/light-http-server)
 
 ```js
 var server = require('light-http-server');
