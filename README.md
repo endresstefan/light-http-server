@@ -7,10 +7,10 @@
 var server = require('light-http-server');
 
 server.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send('It works.')
 });
 
-app.listen(80)
+server.listen(80)
 ```
 
 ## Installation
