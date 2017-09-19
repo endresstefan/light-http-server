@@ -1,4 +1,4 @@
- ##**Light http server**
+## **Light http server**
   Lightweight express like web framework for [node](http://nodejs.org).
 
   [![npm](https://img.shields.io/npm/v/light-http-server.svg)](https://www.npmjs.com/package/light-http-server)
