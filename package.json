@@ -1,6 +1,6 @@
 {
   "name": "light-http-server",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Lightweight express like web framework for node.",
   "main": "index.js",
   "directories": {
@@ -27,5 +27,7 @@
   "bugs": {
     "url": "https://github.com/endresstefan/light-http-server/issues"
   },
-  "homepage": "https://github.com/endresstefan/light-http-server#readme"
+  "homepage": "https://github.com/endresstefan/light-http-server#readme",
+  "dependencies": {
+  }
 }

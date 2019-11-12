@@ -7,3 +7,10 @@ docs/
 examples/
 support/
 test/
+*.pem
+Dockerfile
+*.sh
+*.cert
+*.key
+test.js
+package-lock.json

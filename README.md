@@ -4,13 +4,32 @@
   [![npm](https://img.shields.io/npm/v/light-http-server.svg)](https://www.npmjs.com/package/light-http-server)
 
 ```js
-var server = require('light-http-server');
+const server = require('light-http-server');
 
 server.get('/', function (req, res) {
   res.send('It works.')
 });
 
 server.listen(80)
+```
+
+Added  support for  https
+
+```js
+const server = require('light-http-server');
+const fs = require('fs');
+
+const options = {
+    key: fs.readFileSync('server.key'),
+    cert: fs.readFileSync('server.cert'),
+    port:443
+};
+
+server.get('/', function (req, res) {
+    res.send('It works.')
+});
+
+server.listen(options)
 ```
 
 ## Installation
