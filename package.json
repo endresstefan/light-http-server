@@ -1,6 +1,6 @@
 {
   "name": "light-http-server",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "Lightweight express like web framework for node.",
   "main": "index.js",
   "directories": {
