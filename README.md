@@ -13,7 +13,24 @@ server.get('/', function (req, res) {
 server.listen(80)
 ```
 
-Added  support for  https
+Using the RouteHandler:
+
+```js
+const server = require('light-http-server');
+const { RouteHandler } = require('light-http-server');
+
+const router = new RouteHandler();
+router.get('/hello/:name', (req, res) => {
+    const { variables: { name } } = req;
+    res.write(`Hello, ${name}!`);
+    res.end();
+});
+
+server.use(router);
+server.listen(3000);
+```
+
+Added support for https
 
 ```js
 const server = require('light-http-server');
